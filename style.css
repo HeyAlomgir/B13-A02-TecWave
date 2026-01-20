@@ -75,10 +75,12 @@ ul{
 }
 span , hr{
     color:rgb(50, 50, 128);
+    background-color: 
 }
 hr{
     margin-bottom: 65%;
-    color: rgb(98, 9, 182);
+    color: rgb(40, 105, 9);
+  
 }
 .btn-2{
     border: 2px solid #00FF88;
@@ -297,13 +299,11 @@ footer{
     background-position: center;
     background-repeat: no-repeat;
    padding: 25%;
+   margin-top: 20%;
 }
 
 .footer-container{
     text-align: center;
-  
-    
-
 }
 .footer-grid{
     display: grid;
@@ -316,7 +316,7 @@ footer{
 }
 .footer-title h1{
     color: white;
-    font-size: 50px;
+    font-size: 3rem;
 }
 footer small{
     color: wheat;
@@ -421,4 +421,50 @@ footer small{
     font-size: 1rem;
 }
 
+footer{
+    background-size: cover;
+}
+.footer-grid{
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+    font-size: 0.6rem;
+    gap: 20px;
+}
+.footer-title h1 {
+ font-size: 1rem;
+}
+footer small{
+    font-size: 0.8rem;
+    width: 100%;
+}
+
+}
+
+/* largest device responsive */
+
+@media screen and (min-width:992px) {
+    .navbar{
+        width: 100%;
+        justify-content: space-between;
+    }
+    header{
+       background-size: cover;
+       background-position: center;
+        border-radius: 0%;
+        
+    }
+    .navbar{
+        margin: 0 auto;
+    }
+    .nav-item{
+        margin-right: 0rem;
+    .navbar h3{
+        font-size: 2rem;
+    }
+    .primary-btn{
+        font-size: 1rem;
+        padding: 10px;
+        margin: 5px;
+    }
+  
 }
