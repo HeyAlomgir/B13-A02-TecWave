@@ -342,11 +342,11 @@ footer small{
    width: 150%;
     position: relative;
     right: 45%;
-    top: -70px;
+    top: -100px;
 }
 .container-ralative img{
     position:relative;
-    top: -220px;
+    top: -290px;
     left: -50%;
     width: 60%;
 }
@@ -407,7 +407,8 @@ footer small{
     
 }
 #grid-container-iframe iframe{
-    width: 300px;
+    width: 400px;
+    
 }
 .host-info{
     display: block;
@@ -453,11 +454,9 @@ footer small{
         border-radius: 0%;
         
     }
-    .navbar{
-        margin: 0 auto;
-    }
     .nav-item{
         margin-right: 0rem;
+    }
     .navbar h3{
         font-size: 2rem;
     }
@@ -467,4 +466,6 @@ footer small{
         margin: 5px;
     }
   
+  
 }
+
