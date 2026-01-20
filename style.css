@@ -291,6 +291,41 @@ background-image: linear-gradient(to bottom, #1c1252, #05101d);
     font-size: 70px;
 }
 
+footer{
+    background-image: url(./img/footer-bg.png);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+   padding: 25%;
+}
+
+.footer-container{
+    text-align: center;
+  
+    
+
+}
+.footer-grid{
+    display: grid;
+    grid-template-columns: repeat(4 , 1fr);
+    font-size: 20px;
+    margin: 50px;
+}
+.footer-grid span {
+    color: wheat;
+}
+.footer-title h1{
+    color: white;
+    font-size: 50px;
+}
+footer small{
+    color: wheat;
+    text-align: center;
+    margin-left: 40%;
+}
+
+
+
 
 /* small device */
 @media screen and (max-width:576px) {
